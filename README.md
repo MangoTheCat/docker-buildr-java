@@ -10,3 +10,5 @@ The following R packages are pre-installed:
 * `remotes`
 
 It also installs pandoc so you can do RMarkdown things without needing all of RStudio.
+
+The intended useage is a base image for building R packages that have a Java dependency.
