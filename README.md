@@ -1,4 +1,4 @@
-# BuildR Docker Image
+# Build R with rJava Docker Image
 
 An image, based on the `mangothecat/buildr` image based on the `rocker/r-ver` base image, with a few system dependencies installed. Namley:
 
