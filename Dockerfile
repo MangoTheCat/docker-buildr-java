@@ -1,4 +1,4 @@
-FROM mangothecat/buildr:3.4.1
+FROM mangothecat/buildr:3.2.5
 
 RUN apt-get update -qq && apt-get -y install \
   apt-utils \
@@ -6,7 +6,8 @@ RUN apt-get update -qq && apt-get -y install \
   libpcre3-dev \
   liblzma-dev \
   libz-dev \
-  openjdk-8-jdk \
+  libicu-dev \ 
+  default-jdk \
   && . /etc/environment \
   && install2.r --error \
     --repos 'http://www.bioconductor.org/packages/release/bioc' \
