@@ -1,4 +1,4 @@
-FROM mangothecat/buildr:3.4.1
+FROM mangothecat/buildr:3.4.3
 
 RUN apt-get update -qq && apt-get -y install \
   apt-utils \
